@@ -3,7 +3,6 @@ bitbot.select_model(BBModel.XL)
 basic.clearScreen()
 music.setBuiltInSpeakerEnabled(true)
 bitbot.setTalon(0)
-bitbot.ledClear()
 basic.forever(function () {
     basic.showIcon(IconNames.Happy)
     bitbot.go(BBDirection.Forward, 60)
